@@ -114,7 +114,7 @@ h1{
     background-color: #eee;
     margin-top: 847px;
     width: 1263px;
-    height: 760px;
+    height: 850px;
     margin-left: -8px;
 }
 .topnews-video{
@@ -133,6 +133,7 @@ h1{
 }
 .topnews-video video{
     width: 100%;
+    margin-top: 25px;
 }
 
 
