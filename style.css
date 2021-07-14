@@ -1,0 +1,184 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------ Header Section Start------ */
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-section{
+    width: 1263px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.banner-left{
+    margin-top:207px;
+    margin-left: 156px;
+}
+.banner-right{
+    margin-top: 135px;
+    
+    
+}
+.banner-right img {
+        width: 556px;
+        height: 438px;
+        
+        
+}
+.header-section:hover .animation{
+    transform: rotate(30deg);
+    transition: transform 0.2s ease-in;
+}
+
+
+h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700px;
+    width: 485px;
+    height: 230px;
+    
+}
+.button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    color: #FFFFFF;
+    padding: 10px, 24px, 10px, 24px;
+    
+
+}
+.button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 22px;
+    padding: 14px;
+    
+}
+
+.button:hover {
+    transform: rotate(10deg);
+}
+
+.banner{
+    display: flex;
+    
+}
+ /* ---------------------------Header Section End ------------------------*/
+
+/*-------------------------- Top Player Section Start ------------------------*/
+
+
+.top-player{
+    width: 1263px;
+    height: 1500px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-left: -8px;
+    
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 66px;
+    
+    
+    
+    
+}
+.player{
+    Width: 330px;
+    Height: 474px;
+    margin-top: 70px;
+    padding: 15px;
+    box-shadow: 0px 0px 8px gray;
+    
+    
+}
+.player img{
+    width: 100%;
+}
+
+ /* -------------------------------------Top Player Section End--------------------------- */
+
+
+/* **************************************Latest News and Videos Start ***************************/
+.news-video{
+    background-color: #eee;
+    margin-top: 847px;
+    width: 1263px;
+    height: 760px;
+    margin-left: -8px;
+}
+.topnews-video{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    width: 1133px;
+    margin-left: 64px;
+    margin-top: 32px;
+    position: absolute;
+}
+
+.topnews-video img{
+    width: 100%;
+    height: 250px;
+}
+.topnews-video video{
+    width: 100%;
+}
+
+
+/* ------------------------Latest News and Video Section End ------------------------- */
+/*--------------------------- Footer-Section Start --------------------------*/
+footer{
+    width: 1263px;
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: -8px;
+}
+
+.footer-part{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0px;
+position: absolute;
+width: 483.87px;
+height: 213px;
+left: 348px;
+top: 35px;
+}
+footer img{
+    width:100%;
+}
+.footer-2nd{
+    margin-left: 200px;
+}
+.icon{
+    padding: 20px;
+    margin-left: 12px;
+}
+/*---------------------------------------- Footer Section End --------------------------------- */
+
+/*------------------- Responsive For MObile ------------- */
+@media only screen and (max-width:688px) {
+    .banner, .player{
+        grid-template-columns: repeat(1, 1fr);
+    
+        
+    }
+    .top-player {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
